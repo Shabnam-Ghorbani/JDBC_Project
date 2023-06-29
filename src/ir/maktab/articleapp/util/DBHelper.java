@@ -4,9 +4,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBHelper {
-    private static final String DB_URL = "jdbc:postgresql://localhost/HW5";
+    private static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/maktab_hw5";
     private static final String USER = "postgres";
-    private static final String PASS = "zara12";
+    private static final String PASS = "0023279397";
 
     private Connection connection;
     public  Connection getConnection() {
